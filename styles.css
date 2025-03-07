@@ -1,0 +1,67 @@
+/* Header Gradient */
+.header {
+    background: linear-gradient(135deg, #4b6cb7, #182848);
+    color: white;
+    padding: 20px;
+}
+
+.footer {
+    background: linear-gradient(135deg, #008080, #4b0082);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: #4b3b83;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+/* Skills Section */
+#add-skill {
+    margin-top: 20px;
+}
+
+#addSkillBtn {
+    margin-left: 10px;
+}
+
+#skillsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skillsList li {
+    background-color: #f0f0f0;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#projectsList .card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.status-completed {
+    color: red;
+}
+
+.status-ongoing {
+    color: green;
+}
+
+#downloadCount {
+    font-size: 18px;
+    color: #333;
+}
